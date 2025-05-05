@@ -1,0 +1,142 @@
+{
+  "Name": "starship troopers INSANE",
+  "Description": "Huge amounts of very fast enemies with very low hp, resups cost 40. Had no idea what I was doing and it's mostly a meme https://clips.twitch.tv/CogentGoodVultureVoteNay-2QOzDrdDH3kMOWyh",
+  "MaxActiveCritters": 600,
+  "MaxActiveSwarmers": 180,
+  "MaxActiveEnemies": 180,
+  "ResupplyCost": 40,
+  "ExtraLargeEnemyDamageResistance": [
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "ExtraLargeEnemyDamageResistanceB": [
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "EnemyDamageResistance": [
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "SmallEnemyDamageResistance": [
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "EnemyCountModifier": [
+    5.85,
+    5.85,
+    7.25,
+    8.5
+  ],
+  "StationaryDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 1000,
+        "max": 1500
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 1500,
+        "max": 2000
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 2500,
+        "max": 3500
+      }
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "weight": 2,
+      "range": {
+        "min": 16,
+        "max": 18
+      }
+    },
+    {
+      "weight": 7.5,
+      "range": {
+        "min": 23,
+        "max": 28
+      }
+    },
+    {
+      "weight": 0.5,
+      "range": {
+        "min": 29,
+        "max": 29
+      }
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "weight": 4,
+      "range": {
+        "min": 12,
+        "max": 15
+      }
+    },
+    {
+      "weight": 2,
+      "range": {
+        "min": 18,
+        "max": 25
+      }
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 3500,
+        "max": 4500
+      }
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 20,
+        "max": 40
+      }
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "min": 7,
+    "max": 7
+  },
+  "MaxActiveElites": 60,
+  "EnvironmentalDamageModifier": 10,
+  "FriendlyFireModifier": 2,
+  "SpeedModifier": 60,
+  "AttackCooldownModifier": 1,
+  "ProjectileSpeedModifier": 5,
+  "HealthRegenerationMax": 1,
+  "ReviveHealthRatio": 1
+}

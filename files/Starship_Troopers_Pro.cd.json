@@ -1,0 +1,211 @@
+{
+  "Name": "Starship Troopers Pro",
+  "Description": "FOR VETERANS OF THE STARSHIP TROOPERS ELITE MOD, this mod changes spawn size, so expect to be swimming in bugs if you don't kill fast enough. The enemies still have Haz4 specifications (speed*, damage, resistance, ..) as regular Starship Troopers. I don't recommend this mod for player level below 999, and even then I saw high level players rush in the middle of a new cave, die and make the mission fail as everybody risks their live or die in rescue attempts. This is easily comparable to Hazard 9 or Hazard 10.",
+  "MaxActiveSwarmers": 180,
+  "MaxActiveEnemies": 180,
+  "ResupplyCost": 60,
+  "StartingNitra": 20,
+  "ExtraLargeEnemyDamageResistance": [
+    0.7,
+    0.75,
+    1,
+    1.6
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    0.6,
+    0.7,
+    0.9,
+    1.6
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    1.1,
+    1.1,
+    1.3,
+    1.5
+  ],
+  "EnemyDamageResistance": [
+    1,
+    1,
+    1.2,
+    1.3
+  ],
+  "EnemyDamageModifier": [
+    2,
+    2.15,
+    2.3,
+    2.5
+  ],
+  "EnemyCountModifier": [
+    2.25,
+    2.25,
+    3.45,
+    4.5
+  ],
+  "EncounterDifficulty": [
+    {
+      "weight": 7,
+      "range": {
+        "min": 700,
+        "max": 800
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 1200,
+        "max": 1400
+      }
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 700,
+        "max": 800
+      }
+    },
+    {
+      "weight": 6,
+      "range": {
+        "min": 250,
+        "max": 400
+      }
+    },
+    {
+      "weight": 3,
+      "range": {
+        "min": 350,
+        "max": 450
+      }
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "weight": 2,
+      "range": {
+        "min": 125,
+        "max": 165
+      }
+    },
+    {
+      "weight": 3,
+      "range": {
+        "min": 250,
+        "max": 300
+      }
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "weight": 9.5,
+      "range": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    {
+      "weight": 0.5,
+      "range": {
+        "min": 70,
+        "max": 70
+      }
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 50,
+        "max": 120
+      }
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "weight": 2,
+      "range": {
+        "min": 3,
+        "max": 4
+      }
+    },
+    {
+      "weight": 8,
+      "range": {
+        "min": 4,
+        "max": 6
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 7,
+        "max": 7
+      }
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 3,
+        "max": 5
+      }
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "weight": 2,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "weight": 9,
+      "range": {
+        "min": 0.4,
+        "max": 0.7
+      }
+    },
+    {
+      "weight": 2,
+      "range": {
+        "min": 0.6,
+        "max": 0.9
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0.2,
+        "max": 0.3
+      }
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "min": 7,
+    "max": 7
+  },
+  "EnvironmentalDamageModifier": 1.4,
+  "PointExtractionScalar": 1.4,
+  "FriendlyFireModifier": 0.9,
+  "SpeedModifier": 1.1,
+  "AttackCooldownModifier": 1.25,
+  "ProjectileSpeedModifier": 1.3,
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.75,
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
+}
